@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="author" content="Дед мороз" />
+        <meta name="description" content="Отправьте открытку деду морозу и получите подарок" />
+        <meta name="keywords" content="дед мороз, открытка, подарок" />
+        <meta name="robots" content="index; follow; noarchieve" />
+        <meta name="viewport" content="user-scalable=yes; width=device-width; initial-scale=1; maximum-scale=5;" />
+        <title>Открытка Деду морозу</title>
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="icon" href="img/happy-new-year.ico" />
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div class="snowblock"></div>
+        <section>
+            <header>
+                <div class="logo">
+                    <a href="index.html"><img src="img/happy-new-year.ico" /></a>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#">Телеграм</a></li>
+                        <li><a href="#">Инстаграм</a></li>
+                        <li><a href="#">Новости</a></li>
+                        <li><a href="#">Подписка</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </section>
+        <hr class="hr1" />
+        <h1>Желание на новый год</h1>
+        <section class="form">
+            <form action="/submit_form" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required />
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required />
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        <footer>
+            <h1>Наши отзывы</h1>
+            <div class="container">
+                <div class="block">
+                    <div class="content">
+                       <img src="img/man-user-circle-icon.png" class="quote-img">
+                       <h3>Sardor</h3>
+                       <p>всех с новым годом</p> 
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="content">
+                       <img src="img/man-user-circle-icon.png" class="quote-img">
+                       <h3>Asadbek</h3>
+                       <p>Желаю всем счастья в новом году</p> 
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="content">
+                       <img src="img/man-user-circle-icon.png" class="quote-img">
+                       <h3>Aziz</h3>
+                       <p>YANGI OSHHHH</p> 
+                    </div>
+                </div>
+            </div>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/yourusername" target="_blank">
+                    <img src="img/2021_Facebook_icon.svg" alt="Facebook Icon" />
+                </a>
+                <a href="https://www.twitter.com/yourusername" target="_blank">
+                    <img src="img/twitter-logo-2429.svg" alt="Twitter Icon">
+                </a>
+                <a href="https://www.instagram.com/yourusername" target="_blank">
+                    <img src="img/Instagram_logo_2016.svg" alt="Instagram Icon">
+                </a>
+            </div>
+            <script src="https://static.elfsight.com/platform/platform.js" async></script>
+            <div class="elfsight-app-664d4767-82cc-4094-a1b6-c88b4dc9c575" data-elfsight-app-lazy></div>
+        </footer>
+    </body>
+</html>
